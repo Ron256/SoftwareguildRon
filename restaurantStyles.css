@@ -5,3 +5,27 @@ html, body {
 	height:100%
 	border: 1px;
 }
+
+a{
+  padding: 0px 10px;	
+}
+#Addressc, #Restaurantheading, .RestDescription p {
+	color: #330000;
+	text-align: center;
+}
+.dataclass {
+	Font-family:Calibri Light;
+}
+
+img {
+	/*display: block;
+	margin: auto;
+	position: in-line
+	/*width: 50%;
+	width: 400px;
+	height: 150px;	*/
+	margin-right: 4px;
+	margin-left: 10px;
+	position: relative;
+	top: 6px;
+}
