@@ -1,4 +1,27 @@
-caption {
+/*caption {
 	font-weight: bold;
 	color: blue;
+}
+*/
+#heading1, caption{
+	color: blue;
+	font-family: Broadway;
+	
+}
+.Listitems {
+	font-style: italic
+}
+h2 {
+	color: blue;
+	/*font-family: Broadway;*/
+	text-align: center;
+}
+.main {
+	background-repeat: no-repeat;
+	background-attachment: fix;
+	background-position: center;
+	height: 500px;
+	width: 450px;
+	padding: 0px 0px 0px 50px;
+	margin: 2px;
 }

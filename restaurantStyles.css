@@ -12,6 +12,11 @@ a{
 #Addressc, #Restaurantheading, .RestDescription p {
 	color: #330000;
 	text-align: center;
+	
+}
+.RestDescription p{
+	width: 1000px;
+	text-indent: 1%;
 }
 .dataclass {
 	Font-family:Calibri Light;
