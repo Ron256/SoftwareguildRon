@@ -13,6 +13,10 @@ a{
 	color: #330000;
 	text-align: center;
 	
+	
+}
+#Restaurantheading {
+	Font-family: Castellar;
 }
 .RestDescription p{
 	width: 1000px;
@@ -33,4 +37,17 @@ img {
 	margin-left: 10px;
 	position: relative;
 	top: 6px;
+}
+th {
+	Font-size: 20px;
+}
+.Menuclass {
+	background-color: rgba(0,255,0,0.1);
+}
+.headerandfooterex {
+	background-color: rga(211,211,211);
+}
+.formL {
+	/*font-weight property specifies the weight of a font.*/
+	font-weight: bold;
 }
