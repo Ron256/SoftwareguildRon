@@ -7,6 +7,11 @@
 	color: blue;
 	font-family: Broadway;
 	
+	
+}
+
+#heading1 {
+	margin-top: -100px
 }
 .Listitems {
 	font-style: italic
@@ -24,4 +29,61 @@ h2 {
 	width: 450px;
 	padding: 0px 0px 0px 50px;
 	margin: 2px;
+}
+.sitelink {
+	text-align: center;
+	color:#00c;
+}
+a {
+	font-family:monospace;
+	text-decoration: none;
+	font-weight: none;
+}
+a:link {
+	color: #A52A2A;
+	background-color: lightGreen;
+}
+
+a:visited {
+	color: Red;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #4CBB17;
+  font-family: cursive;
+  background-color: white
+}
+
+a:active {
+  font-weight: bold;
+}
+
+
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px 0px 10px 5px;
+	
+}
+
+table {
+	width: 100%;
+	/*setting the background-color to lightgoldenrodyellow*/
+	background-color: #FAFAD2;
+}
+
+thead th {
+	height: 25px;
+	text-align: left;
+	background-color: lightgray;
+	
+	
+}
+
+tbody td {
+	
+	vertical-align: left;
+	font-style: italic;
 }
