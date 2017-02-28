@@ -10,8 +10,14 @@
 	
 }
 
-#heading1 {
-	margin-top: -100px
+.realease {
+	margin-top: -10px;
+	padding-top: -10px;
+	height: -5px;
+}
+
+.heading1 {
+	margin-top: -20px
 }
 .Listitems {
 	font-style: italic
@@ -21,7 +27,7 @@ h2 {
 	/*font-family: Broadway;*/
 	text-align: center;
 }
-.main {
+/*.main {
 	background-repeat: no-repeat;
 	background-attachment: fix;
 	background-position: center;
@@ -30,6 +36,7 @@ h2 {
 	padding: 0px 0px 0px 50px;
 	margin: 2px;
 }
+*/
 .sitelink {
 	text-align: center;
 	color:#00c;
@@ -62,8 +69,8 @@ a:active {
 
 
 table, th, td {
-	border: 1px solid black;
-	border-collapse: collapse;
+	/*border: 1px solid black;
+	border-collapse: collapse;*/
 	padding: 5px 0px 10px 5px;
 	
 }
@@ -76,14 +83,22 @@ table {
 
 thead th {
 	height: 25px;
-	text-align: left;
+	/*text-align: left;*/
 	background-color: lightgray;
 	
 	
 }
-
+/*
 tbody td {
 	
 	vertical-align: left;
 	font-style: italic;
 }
+*/
+@media(min-width: 768px) {
+	.heading1 h1 {
+		font-size: 20px;
+	}
+	
+}
+

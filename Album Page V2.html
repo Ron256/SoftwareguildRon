@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>
 	  Title of Album
 	</title>
@@ -16,28 +20,35 @@
 	  }
 	</style>
 	<link href="albumStyle.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css"/>
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\bootstrap.min.js"/>
 	
   </head>
   <body>
   <div class="main">
-  <img src="Images\cars.jpg" alt="Picture of the Album" style="width: 1000px; height: 400px;">
+  <img src="Images\cars.jpg"  class="img-thumbnail center-block" alt="Responsive image" >
   </div>
   <br>
-    <h1 id="heading1">
+  <div class="heading1">
+    <h1>
 	  <center>
 	    Muscians in Motown
 	  </center>
-	  
 	</h1>
+  </div>
   <div class="sitelink">
     <a href="http://hillsong.com" target="_blank">Christ is born</a>
   </div>
+  <div class="realease">
   <br>
 	  <center>
 	    03/01/2017
     </center>
 	<hr>
   <h2>Band Members and Producers</h2>
+  <!--<abbr title="HyperText Markup Language" class="initialism">HTML</abbr> -->
+  </div>
   <div class="Listitems">
   <blockquote>
     <blockquote>
@@ -52,33 +63,39 @@
 	</blockquote>
 	</blockquote>
 	</div>
-	<table>
-	  <caption>Tracks</caption>
+	<div class="table-responsive">
+	<table class="table table-striped table-bordered table-hover">
+	  <caption style="text-align: center;">Tracks</caption>
 	<thead>  
 	  <tr>
-	    <th>Track #</th>
-		<th>Track Title</th>
-		<th>Track Length</th>
+	    <th class="text-left">Track #</th>
+		<th class="text-left">Track Title</th>
+		<th class="text-left">Track Length</th>
 	  </tr>
 	  </thead>
 	  <tbody>
-	  <tr>
+	  <tr class="warning">
 	    <td>1</td>
 		<td>Title 1</td>
-		<td>3:24</td>
+		<td >3:24</td>
 	  </tr>
-	  <tr>
+	  <tr class="success">
 	    <td>2</td>
 	    <td>Title 2</td>
 	    <td>2:54</td>
 	  </tr>
-	  <tr>
+	  <tr class="info">
 	    <td>3</td>
 	    <td>Title 3</td>
 	    <td>3:04</td>
 	  </tr>
 	</tbody>
 	</table>
+	</div>
   </blockquote>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
