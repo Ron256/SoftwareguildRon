@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+  <!-- Optional theme -->
+  <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  </script>
     <title>
 	  Menu
 	</title>
@@ -9,13 +23,77 @@
   <body class="Menuclass">
   <h1 Id="Restaurantheading">Kim's Menu</h1><hr/>
   <div>
-    <a href="HomePage.html" >Home</a>
-	<a href="#" >Menu</a>
-	<a href="contactUs.html" >Contact Us</a>
+  <ul class="nav nav-tabs">
+    <li><a href="HomePage.html" ><span class="glyphicons glyphicons-house-fire">Home</span></a></li>
+	<li class="active"><a href="#">Menu</a></li>
+	<li><a href="contactUs.html" >Contact Us</a></li>
+  </ul>
   </div>
   <hr/>
-  <table>
-    <tr>
+  <div class="container">
+    <div class="row">
+	  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><h4>Burgers and Fries</h4>
+	    <p>An American Classic! Your choice - with or without cheese
+		Pickle, onion, tomato, and lettuce Served with out famous thick cut
+		french fries <br/>
+		$7.95
+		</p>
+	   </div>
+	 
+	   <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><h4>Hot Dog and Chips</h4>
+		  <p>An Summer Classic!
+		  Your choice - white or wheat bun Relish, mustard, and ketchup
+		  Served with our house-made chips<br/>
+		  $7.95
+		</p>
+	   </div>
+	   
+	    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><h4>Italian Sausage and Peppers</h4>
+	    <p>
+		  An All-Time Favorite!
+		  Your choice - mild or spicy 
+		  Cole slaw
+		  Served with garlic mashers<br/>
+		  $10.95
+		</p>
+	   </div>
+	   <div class "clearfix visible-lg">
+	   <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><h4>Tenderloin Sandwich and Chips</h4>
+	    <p>Really Hits the Spot!
+	    Plain or Sesame Seed Bun
+		Pickle, onion, tomato, and lettuce
+		Served with our house - made chips<br/>
+		$8.95
+		</p>
+	   </div>
+	   
+	   <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><h4>House Salad</h4>
+	    <p>On the Lighter Side
+		Your choice - with or without cheese
+		Iceberg lettuce, tomatoes, peppers
+		Thousand Island or Ranch Dressing 
+		Served with a dinner roll<br/>
+		$6.95
+		</p>
+	   </div>
+	   
+	   <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><h4>Brisket Sandwich and Fries</h4>
+	    <p>On the Lighter Side
+		A Taste of Texas!
+	    Smoked Brisketon thick-cut Texas Toast
+	    Cole Slaw Served with our famous thick-cut
+	    french fries<br/>$7.95
+		</p>
+	   </div>
+	  
+	</div>
+  
+  </div>
+  <!--
+  <div class="container">
+  <div class="table-responsive">
+  <table class="table table-borderless">
+    <tr >
 	  <th>
 	    Burger and Fries
 	  </th>
@@ -52,6 +130,8 @@
 		</blockquote>
 	  </td>
 	</tr>
+  </div>
+  </div>
   </table>
   <br/>
   <table>
@@ -87,7 +167,8 @@
 	  </blockquote>
 	</td>
   </table> <!--<br/><br/><br/><br/><br/><br/><br/> -->
-  <br/>
+  <br>
+
   <table class="beveragesclass">
     <caption>Beverages</caption>
 	<thead>
@@ -125,5 +206,10 @@
   </blockquote>
   <hr/>
   </footer>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\bootstrap.min.js"/>
   </body>
 </html>

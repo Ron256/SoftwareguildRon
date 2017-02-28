@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+  <!-- Optional theme -->
+  <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  </script>
     <title>
 	  Home Page
 	</title>
@@ -10,17 +24,24 @@
   <div class="headerandfooterex">
   <h1 Id="Restaurantheading">Kim's Menu</h1><hr/>
   <div>
-    <a href="">Home</a>
-	<a href="Menu.html">Menu</a>
-	<a href="contactUs.html">Contact Us</a>
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#">Home</a></li>
+	<li><a href="Menu.html">Menu</a></li>
+	<li><a href="contactUs.html">Contact Us</a></li>
+  </ul>
   </div><hr/>
   <img src="http://cache.marriott.com/propertyimages/d/dtwdn/dtwdn_restaurant.jpg" alt="Picture of the restaurant">
   <div  class="RestDescription">
-  <p>
+  <p class="lead">
 		  Restaurant Description<br/><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,Vivamus<br/>maximus neque velit, ac semper orci imperdiet at. Phaselius vel <br/> elit a justo volutpat euismod sed vel orci. Nulla vitae mauris <br/>
 		  commodo ante ornare convallis nec id quam. Mauris at labortis <br/>mi, eu maximus dolor. Integer at erat sed ligula bibendum<br/>laoreet, Nunc at porta adio.
 		  In tempor egestas eros et rutrum.<br/>Sed in ipsum non nibh condimentum faucibus ut vitae neque.<br/>Donec sit amet turpis metus. Proin ligula ante, consequat ac<br/>congue scelerisque, commodo at erat.
   </p>
+  </div>
+  <div class="container">
+    <div class="jumboton">
+      <h1 class="text-justify text-capitalize">New Location is coming is soon</h1>
+	</div>
   </div>
   <br/><!--<br/><br/><br/><br/><br/><br/><hr/> -->
   </div>
@@ -34,5 +55,10 @@
   </blockquote>
   <hr/>
   </footer>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\bootstrap.min.js"/>
   </body>
 </html>

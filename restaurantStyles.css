@@ -21,6 +21,7 @@ a{
 .RestDescription p{
 	width: 1000px;
 	text-indent: 1%;
+	margin-top: 10px;
 }
 .dataclass {
 	Font-family:Calibri Light;
@@ -53,7 +54,7 @@ th {
 }
 a {
 	font-family:monospace;
-	text-decoration: underline;
+	text-decoration: none;
 	font-weight: none;
 }
 a:link {
@@ -87,4 +88,21 @@ a:active {
 	font-weight: normal;
 	font-size: 13px;
 	padding: 5px 0px 10px 5px;
+}
+.table-borderless tbody tr td,
+.table-borderless tbody tr th,
+.table-borderless  tbody tr th 
+.table-borderless thead tr th,
+.table-borderless thead tr td,
+.table-borderless tfoot tr th,
+.table-borderless tfoot tr td {
+    border: none !important;
+	padding: 0px !important
+}
+
+@media (min-width: 768x) {
+	
+}
+
+@media screen (min-width: 767px) {
 }
