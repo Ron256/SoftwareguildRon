@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-
-  <!-- Optional theme -->
-  <link rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </script>
     <title>
 	  Home Page
 	</title>
 	<link href="restaurantStyles.css" rel="stylesheet" type="text/css"/>
+	<style>
+	  .carousel{
+			background: #2f4357;
+			margin-top: 20px;
+		}
+	</style>
   </head>
   <body>
+  
   <div class="headerandfooterex">
   <h1 Id="Restaurantheading">Kim's Menu</h1><hr/>
   <div>
@@ -29,8 +31,49 @@
 	<li><a href="Menu.html">Menu</a></li>
 	<li><a href="contactUs.html">Contact Us</a></li>
   </ul>
-  </div><hr/>
-  <img src="http://cache.marriott.com/propertyimages/d/dtwdn/dtwdn_restaurant.jpg" alt="Picture of the restaurant">
+  </div>
+  <div class="container">
+  <!-- data-interval="1000" -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="1000">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  </ol>
+	 
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner">
+		<div class="item active">
+		  <img src="http://www.rexwallpapers.com/images/wallpapers/photography/food/food_14.jpg" alt="..." style="width:80%; height: 500px;">
+		  <div class="carousel-caption">
+			<h3>We 're opening a new location</h3>
+		  </div>
+		</div>
+		<div class="item">
+		  <img src="http://www.rexwallpapers.com/images/wallpapers/photography/food/food_14.jpg" alt="...">
+		  <div class="carousel-caption">
+			<h3>We're rolling out our seasonal menu, with special options for this season</h3>
+		  </div>
+		</div>
+		<div class="item">
+		  <img src="http://www.rexwallpapers.com/images/wallpapers/photography/food/food_14.jpg" alt="...">
+		  <div class="carousel-caption">
+			<h3>The Drink of the Month is SG Special Brew</h3>
+		  </div>
+		</div>
+	  </div>
+	 
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+	  </a>
+	</div> <!-- Carousel -->
+  </div>
+  <img src="http://cache.marriott.com/propertyimages/d/dtwdn/dtwdn_restaurant.jpg" alt="Picture of the restaurant" style="margin-left: 330px; padding-left: 55px; padding-top; 5px;">
   <div  class="RestDescription">
   <p class="lead">
 		  Restaurant Description<br/><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,Vivamus<br/>maximus neque velit, ac semper orci imperdiet at. Phaselius vel <br/> elit a justo volutpat euismod sed vel orci. Nulla vitae mauris <br/>
@@ -56,9 +99,9 @@
   <hr/>
   </footer>
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
-    </script>
-   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist\bootstrap-3.3.7-dist\js\bootstrap.min.js"/>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+  <script src="js/bootstrap.min.js"></script>
+  <noscript>This site is best viewed with JavaScript enabled</noscript>
   </body>
 </html>
