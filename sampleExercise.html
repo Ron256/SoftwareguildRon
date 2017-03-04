@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Proper rendering and touch zooming -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet" type="text/css" />
+    <title> A Web Page
+	</title>
+  </head>
+  <body>
+    <!-- Using the font styling of a head in bootstrap and the associated html element-->
+    <p class="h2">Sample</p>
+    <div class="container">
+	  <form name="sampleform" onsubmit="return validateitems();" onreset="resetForm();" class="form-horizontal">
+	    <div class="form-group"><!-- Wrap labels and form controls in <div class="form-group"> -->
+		
+		  <label for="inputStartingNo" class="col-sm-2 control-label">Starting Number</label>
+		  <div class="col-sm-3">
+		    <input type="number" class="form-control" id="inputStartingNo">
+		  </div>
+		</div>
+		
+		<div class="form-group">
+		  <label for="inputEndingNo" class="col-sm-2 control-label">Ending Number</label>
+		  <div class="col-sm-3">
+		    <input type="number" class="form-control" id="inputEndingNo">
+		  </div>
+		</div>
+		
+		<div class="form-group">
+		  <label for="inputStepNo" class="col-sm-2 control-label">Step</label>
+		  <div class="col-sm-3">
+		    <input type="number" class="form-control" id="inputStepNo">
+		  </div>
+		</div>
+		
+		<div class="form-group">
+		  <div class=" col-sm-offset-2 col-sm-3">
+		    <button type="submit" id="submitButton" class="btn btn-default">Display Evens</button>
+		  </div>
+		</div>
+		
+		<div class="form-group">
+		  <div class="col-sm-offset-2 col-sm-3">
+		    <input type="reset" id="resetButton" class="btn">
+		  </div>
+		</div>
+	  </form>
+	  <div id="results"></div>
+	</div>
+  </body>
+</html>
