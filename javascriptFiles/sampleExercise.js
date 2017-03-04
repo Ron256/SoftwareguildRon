@@ -72,7 +72,6 @@ function validateItems()
         document.forms["sampleform"]["inputStepNo"].focus();
         return false;
 	}
-	document.getElementById("submitButton").innerText = "Redisplay Even nos";
 	
 	/*
 	 function takes the starting, ending and step numbers as parameters and 
@@ -82,9 +81,9 @@ function validateItems()
 	 step 2 derive another array with even numbers to use the construct the paragaph  
 	*/
 	 function register(inputStartingNo, inputEndingNo, inputStepNo) {
-		var snum    = inputStartingNo; //4
-		var endnum  = inputEndingNo;  //20
-		var step 	= inputStepNo;    //3
+		var snum    = Number(inputStartingNo); //4
+		var endnum  = Number(inputEndingNo);  //20
+		var step 	= Number(inputStepNo);    //3
 		
 		var numbers = [];
 		
@@ -117,6 +116,7 @@ function validateItems()
 	 }
 	
 	document.getElementById("results").innerHTML = register(inputStartingNo, inputEndingNo, inputStepNo);
+	document.getElementById("submitButton").innerText = "Redisplay Even nos";
 	
   return false;
 }
